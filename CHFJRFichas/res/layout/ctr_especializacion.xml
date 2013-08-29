@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:contentDescription="@string/str_specialicities"
+    android:paddingLeft="20dip" >
+    
+    <Spinner
+        android:id="@+id/spnEspecializacion"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+    
+    <EditText 
+        android:id="@+id/txtNivelEspecializacion"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:width="32dip"
+    	style="@style/sknAbilValue" />
+    	
+	<ImageButton
+	    android:id="@+id/btnRemoveEspecializacion"
+	 	style="@style/sknDelPropButton"/>
+
+</LinearLayout>

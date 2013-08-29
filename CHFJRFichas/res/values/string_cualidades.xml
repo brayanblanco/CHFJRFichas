@@ -1,0 +1,321 @@
+
+    <resources>
+        <!-- Cualidades -->
+        <!-- Habilidades -->
+        <string name="artista">Artista</string>
+        <string name="atletaconsumado">Atleta consumado</string>
+        <string name="conocedorterreno">Conocedor del terreno</string>
+        <string name="contactos">Contactos</string>
+        <string name="dotado">Dotado</string>
+        <string name="empatianimal">Empatía animal</string>
+        <string name="erudicion">Erudición</string>
+        <string name="furtivo">Furtivo</string>
+        <string name="grancazador">Gran cazador</string>
+        <string name="granuja">Granuja</string>
+        <string name="maestroconsumado">Maestro consumado</string>
+        <string name="memoriaprodigiosa">Memoria prodigiosa</string>
+        <string name="oficio">Oficio</string>
+        <string name="pericia">Pericia</string>
+        <string name="poliglota">Políglota</string>
+        <string name="reflejosrapidos">Reflejos rápidos</string>
+        <string name="robusto">Robusto</string>
+        <string name="sanadormilagroso">Sanador milagroso</string>
+        <string name="sentidosagudizados">Sentidos agudizados</string>
+        <string name="siniestro">Siniestro</string>
+        <string name="talentoaritmetico">Talento aritmético</string>
+        <string name="tasacion">Tasación</string>
+        <string name="unoentremultitud">Uno entre la multitud</string>
+        <!-- Predestinadas -->
+        <string name="adiestradorcuervos">Adiestrador de cuervos</string>
+        <string name="afortunado">Afortunado</string>
+        <string name="bandaleales">Banda de leales</string>
+        <string name="benefactor">Benefactor</string>
+        <string name="cambiapieles">Cambiapieles</string>
+        <string name="compaanimal">Compañero animal</string>
+        <string name="compafiel">Compañero fiel</string>
+        <string name="famoso">Famoso</string>
+        <string name="feudo">Feudo</string>
+        <string name="heredero">Heredero</string>
+        <string name="herencia">Herencia</string>
+        <string name="hermanognoche">G. de la noche</string>
+        <string name="lidercasa">Líder de la cas</string>
+        <string name="maestre">Maestre</string>
+        <string name="greal">Guardia real</string>
+        <string name="pio">Pío</string>
+        <string name="pupilo">Pupilo</string>
+        <string name="rico">Rico</string>
+        <string name="tercerojo">Tercer ojo</string>
+        <string name="tojoabierto">Tercer ojo abierto</string>
+        <string name="vnocturna">Visión nocturna</string>
+        <string name="vistaverde">Vista verde</string>
+        <!-- Heredadas -->
+        <string name="descomunal">Descomunal</string>
+        <string name="sandalo">S. de ándalo</string>
+        <string name="sheroes">S. de los héroes</string>
+        <string name="shierro">S. de los hombres del Hierro</string>
+        <string name="sprimeros">S. de los primeros hombres</string>
+        <string name="srhoynar">S. de Rhoynar</string>
+        <string name="ssalvaje">S. de salvaje</string>
+        <string name="svalyria">S. valyria</string>
+        <!-- Marciales -->
+        <string name="ctorneos">Caballero de torneos</string>
+        <string name="certero">Certero</string>
+        <string name="danzaguai">D. del agua I</string>
+        <string name="danzaguaii">D. del agua II</string>
+        <string name="danzaguaiii">D. del agua III</string>
+        <string name="defacrobatica">Def. acrobática</string>
+        <string name="dispnoble">Disp. noble</string>
+        <string name="dispmortifero">Disp. mortífero</string>
+        <string name="disptriple">Disp. triple</string>
+        <string name="dominioconti">Dom. contundentes I</string>
+        <string name="dominiocontii">Dom. contundentes II</string>
+        <string name="dominiocontiii">Dom. contundentes III</string>
+        <string name="dominioastai">Dom. asta I</string>
+        <string name="dominioastaii">Dom. asta II</string>
+        <string name="dominioastaiii">Dom. asta III</string>
+        <string name="dominiohcortai">Dom. h. corta I</string>
+        <string name="dominiohcortaii">Dom. h. corta II</string>
+        <string name="dominiohcortaiii">Dom. h. corta III</string>
+        <string name="dominiohlargai">Dom. h. larga I</string>
+        <string name="dominiohlargaii">Dom. h. larga II</string>
+        <string name="dominiohlargaiii">Dom. h. larga III</string>
+        <string name="dominiohachasi">Dom. hachas I</string>
+        <string name="dominiohachasii">Dom. hachas II</string>
+        <string name="dominiohachasiii">Dom. hacgas III</string>
+        <string name="dominiolanzasi">Dom. lanzas I</string>
+        <string name="dominiolanzasii">Dom. lanzas II</string>
+        <string name="dominiolanzasiii">Dom. lanzas III</string>
+        <string name="duropelar">Duro de pelar</string>
+        <string name="esgrimabraavosi">Esg. bravosi I</string>
+        <string name="esgrimabraavosii">Esg. bravosi II</string>
+        <string name="esgrimabraavosiii">Esg. bravosi III</string>
+        <string name="exparmas">Exp. armas</string>
+        <string name="frenesicomb">Frenesí de combate</string>
+        <string name="furia">Furia</string>
+        <string name="inspirador">Inspirador</string>
+        <string name="liderexcepcional">Lid. excepcional</string>
+        <string name="lluviacero">Lluvia de acero</string>
+        <string name="maestriarma">M. arma</string>
+        <string name="maestriarmamej">M. arma mejorada</string>
+        <string name="maestriarmaduras">M. armaduras</string>
+        <string name="maestriarmadurasmej">M. armaduras mejorada</string>
+        <string name="maestriaescudos">M. escudos</string>
+        <string name="manosagiles">Manos ágiles</string>
+        <string name="paceroi">Puños de acero I</string>
+        <string name="paceroii">Puños de acero II</string>
+        <string name="paceroiii">Puños de acero III</string>
+        <string name="rapido">Rápido</string>
+        <string name="sextosentido">Sexto sentido</string>
+        <string name="ungido">Ungido</string>
+        <!-- Sociales -->
+        <string name="atractivo">Atractivo</string>
+        <string name="autoridad">Autoridad</string>
+        <string name="carismatico">Carismático</string>
+        <string name="cortes">Cortés</string>
+        <string name="diplosutil">Diplo. sutil</string>
+        <string name="elocuente">Elocuente</string>
+        <string name="fascinante">Fascinante</string>
+        <string name="favpueblollano">Fav. pueblo llano</string>
+        <string name="favnobleza">Fav. nobleza</string>
+        <string name="hdemundo">H/M de mundo</string>
+        <string name="magnetismo">Magnetismo</string>
+        <string name="neghabil">Negociador hábil</string>
+        <string name="obstinado">Obstinado</string>
+        <string name="respetable">Respetable</string>
+        <string name="sdeber">Sent. del deber</string>
+        <string name="traicionero">Traicionero</string>
+        <string-array name="beneficios_array">
+            <!-- habilidades -->
+            <item>@string/artista</item>
+            <item>@string/atletaconsumado</item>
+            <item>@string/conocedorterreno</item>
+        	<item>@string/contactos</item>
+        	<item>@string/dotado</item>
+        	<item>@string/empatianimal</item>
+        	<item>@string/erudicion</item>
+        	<item>@string/furtivo</item>
+        	<item>@string/grancazador</item>
+        	<item>@string/granuja</item>
+        	<item>@string/maestroconsumado</item>
+        	<item>@string/memoriaprodigiosa</item>
+        	<item>@string/oficio</item>
+        	<item>@string/pericia</item>
+        	<item>@string/poliglota</item>
+			<item>@string/reflejosrapidos</item>
+        	<item>@string/robusto</item>
+        	<item>@string/sanadormilagroso</item>
+        	<item>@string/sentidosagudizados</item>
+        	<item>@string/siniestro</item>
+        	<item>@string/talentoaritmetico</item>
+        	<item>@string/tasacion</item>
+       		<item>@string/unoentremultitud</item>
+       		<!-- predestinados -->
+	        <item>@string/adiestradorcuervos</item>
+        	<item>@string/afortunado</item>
+        	<item>@string/bandaleales</item>
+        	<item>@string/benefactor</item>
+        	<item>@string/cambiapieles</item>
+        	<item>@string/compaanimal</item>
+        	<item>@string/compafiel</item>
+        	<item>@string/famoso</item>
+		    <item>@string/feudo</item>
+	        <item>@string/heredero</item>
+	        <item>@string/herencia</item>
+	        <item>@string/hermanognoche</item>
+	        <item>@string/lidercasa</item>
+	        <item>@string/maestre</item>
+	        <item>@string/greal</item>
+	        <item>@string/pio</item>
+	        <item>@string/pupilo</item>
+	        <item>@string/rico</item>
+	        <item>@string/tercerojo</item>
+	        <item>@string/tojoabierto</item>
+	        <item>@string/vnocturna</item>
+	        <item>@string/vistaverde</item>
+	        <!-- Heredadas -->
+	        <item>@string/descomunal</item>
+	        <item>@string/sandalo</item>
+	        <item>@string/sheroes</item>
+	        <item>@string/shierro</item>
+	        <item>@string/sprimeros</item>
+	        <item>@string/srhoynar</item>
+	        <item>@string/ssalvaje</item>
+	        <item>@string/svalyria</item>
+	        <!-- Marciales -->
+	        <item>@string/ctorneos</item>
+	        <item>@string/certero</item>
+	        <item>@string/danzaguai</item>
+	        <item>@string/danzaguaii</item>
+	        <item>@string/danzaguaiii</item>
+	        <item>@string/defacrobatica</item>
+	        <item>@string/dispnoble</item>
+	        <item>@string/dispmortifero</item>
+	        <item>@string/disptriple</item>
+	        <item>@string/dominioconti</item>
+	        <item>@string/dominiocontii</item>
+	        <item>@string/dominiocontiii</item>
+	        <item>@string/dominioastai</item>
+	        <item>@string/dominioastaii</item>
+	        <item>@string/dominioastaiii</item>
+	        <item>@string/dominiohcortai</item>
+	        <item>@string/dominiohcortaii</item>
+	        <item>@string/dominiohcortaiii</item>
+	        <item>@string/dominiohlargai</item>
+	        <item>@string/dominiohlargaii</item>
+	        <item>@string/dominiohlargaiii</item>
+	        <item>@string/dominiohachasi</item>
+	        <item>@string/dominiohachasii</item>
+	        <item>@string/dominiohachasiii</item>
+	        <item>@string/dominiolanzasi</item>
+	        <item>@string/dominiolanzasii</item>
+	        <item>@string/dominiolanzasiii</item>
+	        <item>@string/duropelar</item>
+	        <item>@string/esgrimabraavosi</item>
+	        <item>@string/esgrimabraavosiii</item>
+	        <item>@string/esgrimabraavosiii</item>
+	        <item>@string/exparmas</item>
+	        <item>@string/frenesicomb</item>
+	        <item>@string/furia</item>
+	        <item>@string/inspirador</item>
+	        <item>@string/liderexcepcional</item>
+	        <item>@string/lluviacero</item>
+	        <item>@string/maestriarma</item>
+	        <item>@string/maestriarmamej</item>
+	        <item>@string/maestriarmaduras</item>
+	        <item>@string/maestriarmadurasmej</item>
+	        <item>@string/maestriaescudos</item>
+	        <item>@string/manosagiles</item>
+	        <item>@string/paceroi</item>
+	        <item>@string/paceroii</item>
+	        <item>@string/paceroiii</item>
+	        <item>@string/rapido</item>
+	        <item>@string/sextosentido</item>
+	        <item>@string/ungido</item>
+	        <!-- Sociales -->
+	        <item>@string/atractivo</item>
+	        <item>@string/autoridad</item>
+	        <item>@string/carismatico</item>
+	        <item>@string/cortes</item>
+	        <item>@string/diplosutil</item>
+	        <item>@string/elocuente</item>
+	        <item>@string/fascinante</item>
+	        <item>@string/favpueblollano</item>
+	        <item>@string/favnobleza</item>
+	        <item>@string/hdemundo</item>
+	        <item>@string/magnetismo</item>
+	        <item>@string/neghabil</item>
+	        <item>@string/obstinado</item>
+	        <item>@string/respetable</item>
+	        <item>@string/sdeber</item>
+	        <item>@string/traicionero</item>
+        </string-array>
+        <!-- Defectos -->
+        <string name="aficbebida">Aficionado a la bebida</string>
+        <string name="altivo">Altivo</string>
+        <string name="amenazador">Amenazador</string>
+        <string name="arroganciasup">Arrogancia suprema</string>
+        <string name="atormentado">Atormentado</string>
+        <string name="bastardo">Bastardo</string>
+        <string name="cobarde">Cobarde</string>
+        <string name="debil">Débil</string>
+        <string name="defecto">Defecto</string>
+        <string name="despreciable">Despreciable</string>
+        <string name="deuda">Deuda</string>
+        <string name="enejurado">Enemigo jurado</string>
+        <string name="enferminfantil">Enfer. infantil</string>
+        <string name="enfermizo">Enfermizo</string>
+        <string name="estigma">Estigma</string>
+        <string name="eunuco">Eunuco</string>
+        <string name="honorable">Honorable</string>
+        <string name="inepto">Inepto</string>
+        <string name="ingenuo">Ingenuo</string>
+        <string name="innoble">Innoble</string>
+        <string name="irascible">Irascible</string>
+        <string name="lascivo">Lascivo</string>
+        <string name="locuracruel">Locura cruel</string>
+        <string name="malasalud">Mala salud</string>
+        <string name="maldito">Maldito</string>
+        <string name="maniadesagrad">Manía desagradable</string>
+        <string name="miedo">Miedo</string>
+        <string name="mudo">mudo</string>
+        <string name="mutilado">Mutilado</string>
+        <string name="olvidadizo">Olvidadizo</string>
+        <string name="proscrito">Proscrito</string>
+        <string name="sentidoimped">Sent. impedido</string>
+        <string name="tullido">Tullido</string>
+        <string-array name="defectos_array">
+            <item>@string/aficbebida</item>
+            <item>@string/altivo</item>
+            <item>@string/amenazador</item>
+	        <item>@string/arroganciasup</item>
+	        <item>@string/atormentado</item>
+	        <item>@string/bastardo</item>
+	        <item>@string/cobarde</item>
+	        <item>@string/debil</item>
+	        <item>@string/defecto</item>
+	        <item>@string/despreciable</item>
+	        <item>@string/deuda</item>
+	        <item>@string/enejurado</item>
+	        <item>@string/enferminfantil</item>
+	        <item>@string/enfermizo</item>
+	        <item>@string/estigma</item>
+	        <item>@string/eunuco</item>
+	        <item>@string/honorable</item>
+	        <item>@string/inepto</item>
+	        <item>@string/ingenuo</item>
+	        <item>@string/innoble</item>
+	        <item>@string/irascible</item>
+	        <item>@string/lascivo</item>
+	        <item>@string/locuracruel</item>
+	        <item>@string/malasalud</item>
+	        <item>@string/maldito</item>
+	        <item>@string/maniadesagrad</item>
+	        <item>@string/miedo</item>
+	        <item>@string/mudo</item>
+	        <item>@string/mutilado</item>
+	        <item>@string/olvidadizo</item>
+	        <item>@string/proscrito</item>
+	        <item>@string/sentidoimped</item>
+	        <item>@string/tullido</item>
+        </string-array>
+    </resources>

@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:contentDescription="@string/beneficios"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip">
+
+    <Spinner
+        android:id="@+id/spnBeneficio"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:entries="@array/beneficios_array" />
+    
+    <ImageButton
+		    android:id="@+id/btnRemoveBeneficio"
+		 	style="@style/sknDelPropButton"/>
+
+</LinearLayout>

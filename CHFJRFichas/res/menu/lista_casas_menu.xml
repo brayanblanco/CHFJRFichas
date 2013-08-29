@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/action_newHouse" 
+        android:title="@string/action_newHouse" 
+        android:onClick="newHouse_onClick"
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_add"/>
+</menu>

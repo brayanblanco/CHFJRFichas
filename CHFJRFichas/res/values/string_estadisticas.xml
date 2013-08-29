@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- CASA -->
+    <string name="str_shield">Escudo</string>
+    <string name="str_name">Nombre</string>
+    <string name="str_lord">Señor</string>
+    <string name="str_motto">Lema</string>
+    <string name="str_resources">Recursos y Propiedades</string>
+    <string name="str_def">Defensa</string>
+    <string name="str_inf">Influencia</string>
+    <string name="str_ear">Tierras</string>
+    <string name="str_pop">Poblacion</string>
+    <string name="str_law">Ley</string>
+    <string name="str_pow">Poder</string>
+    <string name="str_for">Fortuna</string>
+    <string name="str_family">Familia</string>
+    <string name="str_lady">Señora</string>
+    <string name="str_heirs">Herederos</string>
+    <string name="str_servants">Sirvientes,criados y caballeros mantenidos</string>
+    <string name="str_gdonation">Donación de gloria</string>
+    <string name="str_rdonation">Donación de riqueza</string>
+    <string name="str_vicissitudes">Vicisitudes</string>
+    <string name="str_vicissitud">Vicisitud</string>
+    <string name="num_defaultTwo">00</string>
+    <string name="num_defaultOne">0</string>
+    <!-- PERSONAJE -->
+    <string name="str_house">Casa</string>
+    <string name="str_sex">Sexo</string>
+    <string name="str_attr">Atributos</string>
+    <string name="str_health">Salud</string>
+    <string name="str_composture">Compostura</string>
+    <string name="str_intriguedef">Def. intriga</string>
+    <string name="str_combatdef">Def. combate (s/ arm.)</string>
+    <string name="str_masc">Masculino</string>
+    <string name="str_fem">Femenino</string>
+    <string-array name="str_sexarray">
+        <item>@string/str_masc</item>
+        <item>@string/str_fem</item>
+    </string-array>
+    <string name="str_age">Edad</string>
+    <string name="str_abilities">Habilidades</string>
+    <string name="str_agi">Agilidad</string>
+    <string name="str_ath">Brío</string>
+    <string name="str_fig">Combate</string>
+    <string name="str_kno">Conocimiento</string>
+    <string name="str_end">Constitución</string>
+    <string name="str_hea">Curación</string>
+    <string name="str_ste">Discrección</string>
+    <string name="str_dec">Engaño</string>
+    <string name="str_sta">Estatus</string>
+    <string name="str_war">Guerra</string>
+    <string name="str_lan">Idioma</string>
+    <string name="str_cun">Ingenio</string>
+    <string name="str_awa">Percepción</string>
+    <string name="str_per">Persuasión</string>
+    <string name="str_thi">Picaresca</string>
+    <string name="str_mar">Puntería</string>
+    <string name="str_sur">Supervivencia</string>
+    <string name="str_ani">Trato animal</string>
+    <string name="str_wil">Voluntad</string>
+    <string-array name="str_abilitiesarray">
+        <item>@string/str_agi</item>
+	    <item>@string/str_ath</item>
+	    <item>@string/str_fig</item>
+	    <item>@string/str_kno</item>
+	    <item>@string/str_end</item>
+	    <item>@string/str_hea</item>
+	    <item>@string/str_ste</item>
+	    <item>@string/str_dec</item>
+	    <item>@string/str_sta</item>
+	    <item>@string/str_war</item>
+	    <item>@string/str_lan</item>
+	    <item>@string/str_cun</item>
+	    <item>@string/str_awa</item>
+	    <item>@string/str_per</item>
+	    <item>@string/str_thi</item>
+	    <item>@string/str_mar</item>
+	    <item>@string/str_sur</item>
+	    <item>@string/str_ani</item>
+	    <item>@string/str_wil</item>
+    </string-array>
+    <!-- Especialidades -->
+    <string name="str_specialicities">Especializaciones</string>
+    <!-- Agilidad -->
+    <string name="str_acrobatics">Acrobacia</string>
+    <string name="str_contorsionism">Contorsionismo</string>
+    <string name="str_balance">Equilibrio</string>
+    <string name="str_evade">Esquivar</string>
+    <string name="str_quickness">Rapidez</string>
+    <string-array name="str_specagiarray">
+        <item>@string/str_acrobatics</item>
+        <item>@string/str_contorsionism</item>
+        <item>@string/str_balance</item>
+        <item>@string/str_evade</item>
+        <item>@string/str_quickness</item>
+    </string-array>
+    <!-- Brío -->
+    <string name="str_throw">Arrojar</string>
+    <string name="str_run">Correr</string>
+    <string name="str_strengh">Fuerza</string>
+    <string name="str_swim">Nadar</string>
+    <string name="str_jump">Saltar</string>
+    <string name="str_climb">Trepar</string>
+    <string-array name="str_specatharray">
+        <item>@string/str_throw</item>
+        <item>@string/str_run</item>
+        <item>@string/str_strengh</item>
+        <item>@string/str_swim</item>
+        <item>@string/str_jump</item>
+        <item>@string/str_climb</item>
+    </string-array>
+     <!-- Combate -->
+    <string name="str_hack">A. contundentes.</string>
+    <string name="str_stick">A. de asta</string>
+    <string name="str_shortknife">A. hoja corta</string>
+    <string name="str_longknife">A. hoja larga</string>
+    <string name="str_shields">Escudos</string>
+    <string name="str_fencing">Esgrima</string>
+    <string name="str_axes">Hachas</string>
+    <string name="str_spears">Lanzas</string>
+    <string name="str_fight">Pelear</string>
+    <string-array name="str_specfigarray">
+        <item>@string/str_hack</item>
+        <item>@string/str_stick</item>
+        <item>@string/str_shortknife</item>
+        <item>@string/str_longknife</item>
+        <item>@string/str_shields</item>
+        <item>@string/str_fencing</item>
+        <item>@string/str_axes</item>
+        <item>@string/str_spears</item>
+        <item>@string/str_fight</item>
+    </string-array>
+    <!-- Conocimiento -->
+    <string name="str_wander">Callejeo</string>
+    <string name="str_schoolarship">Educación</string>
+    <string name="str_investigation">Investigación</string>
+    <string-array name="str_specknoarray">
+        <item>@string/str_wander</item>
+        <item>@string/str_schoolarship</item>
+        <item>@string/str_investigation</item>
+    </string-array>
+    <!-- Constitución -->
+    <string name="str_recuperation">Recuperación</string>
+    <string name="str_resistence">Resistencia</string>
+    <string-array name="str_specendarray">
+        <item>@string/str_recuperation</item>
+        <item>@string/str_resistence</item>
+    </string-array>
+    <!-- Curación -->
+    <string name="str_diagnose">Diagnosticar</string>
+    <string name="str_tratardolencia">Tratar dolencia</string>
+    <string name="str_tratarherida">Tratar herida</string>
+    <string-array name="str_specheaarray">
+        <item>@string/str_diagnose</item>
+        <item>@string/str_tratardolencia</item>
+        <item>@string/str_tratarherida</item>
+    </string-array>
+    <!-- Discreción -->
+    <string name="str_pasarinadvertido">Pasar inadvertido</string>
+    <string name="str_sigilo">Sigilo</string>
+    <string-array name="str_specstearray">
+        <item>@string/str_pasarinadvertido</item>
+        <item>@string/str_sigilo</item>
+    </string-array>
+     <!-- Engaño -->
+    <string name="str_actuar">Actuar</string>
+    <string name="str_disfrazarse">Disfrazarse</string>
+    <string name="str_fulleria">Fullería</string>
+    <string name="str_mentir">Mentir</string>
+    <string-array name="str_specdecarray">
+        <item>@string/str_actuar</item>
+        <item>@string/str_disfrazarse</item>
+        <item>@string/str_fulleria</item>
+        <item>@string/str_mentir</item>
+    </string-array>
+    <!-- Estatus -->
+    <string name="str_administracion">Administracion</string>
+    <string name="str_etiqueta">Etiqueta</string>
+    <string name="str_reputacion">Reputación</string>
+    <string name="str_torneos">Torneos</string>
+    <string-array name="str_specstaarray">
+        <item>@string/str_administracion</item>
+        <item>@string/str_etiqueta</item>
+        <item>@string/str_reputacion</item>
+        <item>@string/str_torneos</item>
+    </string-array>
+    <!-- Guerra -->
+    <string name="str_estategia">Estategia</string>
+    <string name="str_mando">Mando</string>
+    <string name="str_tactica">Táctica</string>
+    <string-array name="str_specwararray">
+        <item>@string/str_estategia</item>
+        <item>@string/str_mando</item>
+        <item>@string/str_tactica</item>
+    </string-array>
+     <!-- Idioma -->
+    <string name="str_altovalyrio">Alto valyrio</string>
+    <string name="str_argotesclavista">Argot esclavista</string>
+    <string name="str_asshai">Asshai</string>
+    <string name="str_braavoshi">Braavoshi</string>
+    <string name="str_dothraki">Dothraki</string>
+    <string name="str_ghiscari">Shiscari</string>
+    <string name="str_ibbenes">Ibbenés</string>
+    <string name="str_lantigua">Lengua antigua</string>
+    <string name="str_lcomun">Lengua común</string>
+    <string name="str_lyseno">Lyseno</string>
+    <string name="str_myriano">Myriano</string>
+    <string name="str_norvosano">Norvosano</string>
+    <string name="str_pentoshi">Pentoshi</string>
+    <string name="str_qarthiano">Qarthiano</string>
+    <string name="str_tyroshi">Tyroshi</string>
+    <string name="str_valyrio">Valyrio</string>
+    <string-array name="str_speclanarray">
+        <item>@string/str_altovalyrio</item>
+        <item>@string/str_argotesclavista</item>
+        <item>@string/str_asshai</item>
+        <item>@string/str_braavoshi</item>
+        <item>@string/str_dothraki</item>
+        <item>@string/str_ghiscari</item>
+        <item>@string/str_ibbenes</item>
+        <item>@string/str_lantigua</item>
+        <item>@string/str_lcomun</item>
+        <item>@string/str_lyseno</item>
+        <item>@string/str_myriano</item>
+        <item>@string/str_norvosano</item>
+        <item>@string/str_pentoshi</item>
+        <item>@string/str_qarthiano</item>
+        <item>@string/str_tyroshi</item>
+        <item>@string/str_valyrio</item>
+    </string-array>
+    <!-- Ingenio -->
+    <string name="str_descifrar">Descifrar</string>
+    <string name="str_logica">Lógica</string>
+    <string name="str_memoria">Memoria</string>
+    <string-array name="str_speccunarray">
+        <item>@string/str_descifrar</item>
+        <item>@string/str_logica</item>
+        <item>@string/str_memoria</item>
+    </string-array>
+    <!-- Percepción -->
+    <string name="str_empatia">Empatía</string>
+    <string name="str_observacion">Observación</string>
+    <string-array name="str_specawaarray">
+        <item>@string/str_empatia</item>
+        <item>@string/str_observacion</item>
+    </string-array>
+    <!-- Ingenio -->
+    <string name="str_cautivar">Cautivar</string>
+    <string name="str_convencer">Convencer</string>
+    <string name="str_incitar">Incitar</string>
+    <string name="str_intimidar">Intimidar</string>
+    <string name="str_negociar">Negociar</string>
+    <string name="str_provocar">Provocar</string>
+    <string name="str_seducir">Seducir</string>
+    <string-array name="str_specperarray">
+        <item>@string/str_cautivar</item>
+        <item>@string/str_convencer</item>
+        <item>@string/str_incitar</item>
+        <item>@string/str_intimidar</item>
+        <item>@string/str_negociar</item>
+        <item>@string/str_provocar</item>
+        <item>@string/str_seducir</item>
+    </string-array>
+    <!-- Picaresca -->
+    <string name="str_forzarcerraduras">Forzar cerraduras</string>
+    <string name="str_juegosmanos">Juegos de manos</string>
+    <string name="str_robar">Robar</string>
+    <string-array name="str_specthiarray">
+        <item>@string/str_forzarcerraduras</item>
+        <item>@string/str_juegosmanos</item>
+        <item>@string/str_robar</item>
+    </string-array>
+    <!-- Puntería -->
+    <string name="str_armasarrojadizas">A. arrojadizas</string>
+    <string name="str_arcos">Arcos</string>
+    <string name="str_asedio">Asedio</string>
+    <string name="str_ballestas">Ballestas</string>
+    <string-array name="str_specmararray">
+        <item>@string/str_armasarrojadizas</item>
+        <item>@string/str_arcos</item>
+        <item>@string/str_asedio</item>
+        <item>@string/str_ballestas</item>
+    </string-array>
+    <!-- Supervivencia -->
+    <string name="str_cazar">Cazar</string>
+    <string name="str_forrajear">Forrajear</string>
+    <string name="str_orientarse">Orientarse</string>
+    <string name="str_rastrear">Rastrear</string>
+    <string-array name="str_specsurarray">
+        <item>@string/str_cazar</item>
+        <item>@string/str_forrajear</item>
+        <item>@string/str_orientarse</item>
+        <item>@string/str_rastrear</item>
+    </string-array>
+    <!-- Trato animal -->
+    <string name="str_adiestrar">Adiestrar</string>
+    <string name="str_conducir">Conducir</string>
+    <string name="str_montar">Montar</string>
+    <string-array name="str_specaniarray">
+        <item>@string/str_adiestrar</item>
+        <item>@string/str_cautivar</item>
+        <item>@string/str_conducir</item>
+        <item>@string/str_montar</item>
+    </string-array>
+    <!-- Voluntad -->
+    <string name="str_coordinacion">Coordinación</string>
+    <string name="str_coraje">Coraje</string>
+    <string name="str_dedicacion">Dedicación</string>
+    <string-array name="str_specwilarray">
+        <item>@string/str_coordinacion</item>
+        <item>@string/str_coraje</item>
+        <item>@string/str_dedicacion</item>
+    </string-array>
+    <string name="beneficios">Beneficios</string>
+    <string name="defectos">Defectos</string>
+    <string name="cualidades">Cualidades</string>
+    <string name="pdestino">P. destino</string>
+</resources>

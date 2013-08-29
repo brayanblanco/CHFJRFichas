@@ -1,0 +1,8 @@
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/action_saveHouse" 
+            android:title="@string/action_saveHouse" 
+            android:icon="@android:drawable/ic_menu_save" 
+            android:showAsAction="ifRoom"
+             android:onClick="saveHouse_onClick"/>
+    </menu>

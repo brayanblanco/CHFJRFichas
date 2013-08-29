@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CHFJR Fichas</string>
+    <string name="action_settings">Preferencias</string>
+    <string name="action_newHouse">Nueva casa</string>
+    <string name="action_saveHouse">Guardar casa</string>
+    <string name="action_savePJ">Guardar personaje</string>
+    <string name="action_newPJ">Nuevo Personaje</string>
+    <string name="str_HouseList">Lista de casas</string>
+    <string name="str_PJList">Lista de personajes</string>
+    <string name="str_add">Añadir</string>
+    <string name="str_del">Eliminar</string>
+</resources>

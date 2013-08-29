@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:contentDescription="@string/str_abilities"
+    android:id="@+id/ctrHabilidad"
+    android:orientation="vertical"
+    android:paddingLeft="20dip" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <Spinner
+	        android:id="@+id/spnHabilidad"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"/>
+    
+	    <EditText 
+	        android:id="@+id/txtNivelHabilidad"
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:width="32dip"
+	    	style="@style/sknAbilValue" />
+	    	
+		<ImageButton
+		    android:id="@+id/btnRemoveHabilidad"
+		 	style="@style/sknDelPropButton"/>
+        
+    </LinearLayout>
+    
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layEspecializacionesTXT"
+        android:paddingLeft="10dip" >
+
+        <TextView
+            android:id ="@+id/lblEspecializaciones"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="0.88"
+            android:text="@string/str_specialicities" />
+
+        <ImageButton
+            android:id="@+id/btnAddEspecializacion"
+            style="@style/sknAddPropButton" />
+    </LinearLayout>
+</LinearLayout>

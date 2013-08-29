@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:contentDescription="@string/str_inf"
+    android:padding="10dip" >
+
+    <Spinner
+        android:id="@+id/spnPropiedad"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:entries="@array/str_infarray" />
+    
+    <ImageButton
+		    android:id="@+id/btnRemoveINF"
+		 	style="@style/sknDelPropButton"/>
+
+</LinearLayout>

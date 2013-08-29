@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:contentDescription="@string/str_pow"
+    android:orientation="vertical"
+    android:id="@+id/ctrPropiedadPOD"
+    android:padding="10dip">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content">
+    	
+        <Spinner
+        android:id="@+id/spnUnidad"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:entries="@array/str_powunitsarray" />
+    
+	    <Spinner
+	        android:id="@+id/spnEntrenamiento"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:entries="@array/str_powtrainsarray" />
+	    
+	    <ImageButton
+			    android:id="@+id/btnRemovePOD"
+			 	style="@style/sknDelPropButton" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip" >
+
+        <TextView
+            android:id ="@+id/lblHabilidades"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="0.88"
+            android:text="@string/str_abilities"
+            android:textColor="@android:color/holo_blue_dark" />
+
+        <ImageButton
+            android:id="@+id/btnAddHabilidad"
+            style="@style/sknAddPropButton" />
+    </LinearLayout>
+    
+   <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/holo_blue_dark"
+    android:layout_marginTop="5dip"
+    android:padding="-10dip"/>
+    
+
+</LinearLayout>

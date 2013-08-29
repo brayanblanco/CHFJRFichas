@@ -1,0 +1,319 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:padding="10dip">
+
+    <!-- DATOS -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imgEscudo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/escudo" 
+            android:contentDescription="@string/str_shield"
+            />
+
+        <EditText
+            android:id="@+id/txtNombreCasa"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:ems="10"
+            android:hint="@string/str_name" >
+        </EditText>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_kingdom"
+        style="@style/sknTitleStat" />
+
+    <Spinner
+        android:id="@+id/spnReino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/str_kingdomarray" 
+        android:hint="@string/str_kingdom"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_lord"
+       	style="@style/sknTitleStat"/>
+
+    <EditText
+        android:id="@+id/txtLord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/str_lord" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_motto"
+        style="@style/sknTitleStat"/>
+
+    <EditText
+        android:id="@+id/txtLema"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/str_motto" />
+
+    <!-- PROPIEDADES -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_resources"
+        style="@style/sknTitleStat" />
+
+    <!-- Defensa -->
+	<LinearLayout
+         android:id="@+id/layDEFProps"
+         style="@style/sknPropiedadCasa">
+
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+
+	        <TextView
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.29"
+	            android:text="@string/str_def"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	        <EditText
+	            android:id="@+id/txtDEF"
+	            style="@style/sknResValue"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10" />
+
+	        <ImageButton
+	            android:id="@+id/btnAddDEF"
+	            style="@style/sknAddPropButton"
+	            android:onClick="btnAddDEF_onClick" />
+	    </LinearLayout>
+       
+	</LinearLayout>
+	<!-- Influencia -->
+	<LinearLayout
+         android:id="@+id/layINFProps"
+         style="@style/sknPropiedadCasa" >
+
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+
+	        <TextView
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:text="@string/str_inf"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	        <EditText
+	            android:id="@+id/txtINF"
+	            style="@style/sknResValue"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10" />
+
+	        <ImageButton
+	            android:id="@+id/btnAddINF"
+	            android:onClick="btnAddINF_onClick"
+	            style="@style/sknAddPropButton"/>
+	    </LinearLayout>
+
+	</LinearLayout>
+	<!-- Tierra -->
+	<LinearLayout
+         android:id="@+id/layTIEProps"
+         style="@style/sknPropiedadCasa">
+
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+
+	        <TextView
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:text="@string/str_ear"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	        <EditText
+	            android:id="@+id/txtTIE"
+	            style="@style/sknResValue"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"/>
+
+	        <ImageButton
+	            android:id="@+id/btnAddTIE"
+	            android:onClick="btnAddTIE_onClick"
+	            style="@style/sknAddPropButton"/>
+	    </LinearLayout>
+
+	</LinearLayout>
+	<!-- Ley -->
+	<LinearLayout
+         android:id="@+id/layLEYProps"
+         style="@style/sknPropiedadCasa" >
+
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+
+	        <TextView
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:text="@string/str_law"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	        <EditText
+	            android:id="@+id/txtLEY"
+	            style="@style/sknResValue"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10" />
+
+	        <ImageButton
+	            android:id="@+id/btnAddLEY"
+	            android:visibility="invisible"
+	            style="@style/sknAddPropButton"/>
+	    </LinearLayout>
+	    
+	    <TextView
+	        android:id="@+id/lblLeyVicisitud"
+	        android:text="@string/str_vicissitud"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="10dip" />
+	    
+
+	</LinearLayout>
+	<!-- Población -->
+	<LinearLayout
+         android:id="@+id/layPOBProps"
+         style="@style/sknPropiedadCasa" >
+
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+
+	        <TextView
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:text="@string/str_pop"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	        <EditText
+	            android:id="@+id/txtPOB"
+	            style="@style/sknResValue"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10" />
+
+	        <ImageButton
+	            android:id="@+id/btnAddPOB"
+	            android:visibility="invisible"
+	            style="@style/sknAddPropButton"/>
+	    </LinearLayout>
+	    
+	    <TextView
+	        android:id="@+id/lblPobVicisitud"
+	        android:text="@string/str_vicissitud"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="10dip" />
+
+	</LinearLayout>
+	<!-- Poder -->
+	<LinearLayout
+         android:id="@+id/layPODProps"
+         style="@style/sknPropiedadCasa" >
+
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+
+	        <TextView
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:text="@string/str_pow"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	        <EditText
+	            android:id="@+id/txtPOD"
+	            style="@style/sknResValue"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"/>
+
+	        <ImageButton
+	            android:id="@+id/btnAddPOD"
+	            android:onClick="btnAddPOD_onClick"
+	            style="@style/sknAddPropButton"/>
+	    </LinearLayout>
+
+	</LinearLayout>
+	<!-- Influencia -->
+	<LinearLayout
+         android:id="@+id/layFORProps"
+         style="@style/sknPropiedadCasa" >
+
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+
+	        <TextView
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:text="@string/str_for"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	        <EditText
+	            android:id="@+id/txtFOR"
+	            style="@style/sknResValue"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10" />
+
+	        <ImageButton
+	            android:id="@+id/btnAddFOR"
+	            android:onClick="btnAddFOR_onClick"
+	            style="@style/sknAddPropButton"/>
+	    </LinearLayout>
+
+	</LinearLayout>
+</LinearLayout>
+    
+</ScrollView>

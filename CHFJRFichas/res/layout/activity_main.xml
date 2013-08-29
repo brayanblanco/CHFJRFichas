@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="20dip" >
+
+    <Button
+        android:id="@+id/btnListaCasas"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/str_HouseList"
+        android:onClick="btnListaCasas_onClick" />
+    
+    <Button
+        android:id="@+id/btnListaPJ"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:text="@string/str_PJList"
+        android:onClick="btnListaPJ_onClick" />
+    
+
+</LinearLayout>

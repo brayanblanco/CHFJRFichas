@@ -1,0 +1,288 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" 
+	    android:padding="10dip">
+	    
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/str_name"
+	        style="@style/sknTitleStat" />
+	
+	    <EditText
+	        android:id="@+id/txtNombre"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:hint="@string/str_name" />
+
+	    
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/str_house"
+	        style="@style/sknTitleStat" />
+	
+	    <EditText
+            android:id="@+id/txtNombreCasa"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:ems="10"
+            android:hint="@string/str_house" />
+	    
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:baselineAligned="false"
+	        android:layout_height="wrap_content">
+	        <LinearLayout 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical">
+	            <TextView
+			       	android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:text="@string/str_age"
+			        style="@style/sknTitleStat" />
+			
+			    <EditText
+		            android:id="@+id/txtEdad"
+		            android:layout_width="fill_parent"
+            		android:layout_height="0dip"
+		            android:layout_weight="1"
+		            style="@style/sknResValue"/>	
+	        </LinearLayout>
+	         <LinearLayout 
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:paddingLeft="5dip"
+	            android:layout_weight="1"
+	            android:orientation="vertical">
+	            <TextView
+			       	android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:text="@string/str_sex"
+			        style="@style/sknTitleStat" />
+			
+			    <Spinner
+		            android:id="@+id/spnSexo"
+		            android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+		            android:entries="@array/str_sexarray" />
+	        </LinearLayout>
+	        <LinearLayout 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:paddingLeft="5dip"
+	            android:orientation="vertical">
+	            <TextView
+			       	android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/pdestino"
+			        style="@style/sknTitleStat" />
+			
+			    <EditText
+		            android:id="@+id/txtDestino"
+		            android:layout_gravity="center_horizontal"
+		            android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+		            style="@style/sknResValue"/>
+	        </LinearLayout>
+	    </LinearLayout>
+	    <!-- Atributos -->
+	    <TextView
+	       	android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/str_attr"
+	        style="@style/sknTitleStat" />
+	    <TableLayout 
+	        android:paddingLeft="10dip"
+	        android:paddingRight="10dip" 
+	        android:layout_marginBottom="5dip"
+	        android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+	        <TableRow
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" >
+
+              	<TextView
+			       	android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:text="@string/str_combatdef"
+			        android:layout_weight="1"
+			        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+			    <TextView
+		            android:id="@+id/lblDefCombate"
+		            android:layout_gravity="right"
+		            android:layout_width="wrap_content"
+	           		android:layout_height="wrap_content"
+		            android:text="@string/num_defaultTwo"
+		            android:textAppearance="?android:attr/textAppearanceMedium"/>
+	        </TableRow>
+
+	        <TableRow
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" >
+
+	             <TextView
+			       	android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/str_health"
+			      	android:layout_weight="1"
+			        android:textAppearance="?android:attr/textAppearanceMedium" />
+			
+			    <TextView
+		            android:id="@+id/lblSalud"
+		            android:layout_width="wrap_content"
+		            android:layout_gravity="right"
+	           		android:layout_height="wrap_content"
+		            android:text="@string/num_defaultTwo"
+		            android:textAppearance="?android:attr/textAppearanceMedium"/>	
+	        </TableRow>
+
+	        <TableRow
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" >
+
+	            <TextView
+			       	android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="1"
+			        android:text="@string/str_intriguedef"
+			        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	            <TextView
+	                android:id="@+id/lblDefIntriga"
+	                android:layout_width="wrap_content"
+	                android:layout_gravity="right"
+	                android:layout_height="wrap_content"
+	                android:text="@string/num_defaultTwo"
+	                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	        </TableRow>
+
+	        <TableRow
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" >
+
+	            <TextView
+			       	android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="1"
+			        android:text="@string/str_composture"
+			        android:textAppearance="?android:attr/textAppearanceMedium" />
+			    <TextView
+		            android:id="@+id/lblCompostura"
+		            android:layout_width="wrap_content"
+		            android:layout_gravity="right"
+	           		android:layout_height="wrap_content"
+		            android:text="@string/num_defaultTwo"
+		            android:textAppearance="?android:attr/textAppearanceMedium"/>
+	        </TableRow>
+	    </TableLayout>
+
+	    <!-- Habilidades -->
+
+	    <LinearLayout
+	        android:id="@+id/layHabilidades"
+	        style="@style/sknPropiedadCasa"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" >
+
+		    <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal" >
+	
+		        <TextView
+		            android:layout_width="0dip"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:text="@string/str_abilities"
+		            style="@style/sknTitleStat" />
+	
+		        <ImageButton
+		            android:id="@+id/btnAddHabilidad"
+		            style="@style/sknAddPropButton"
+		            android:background="@android:color/holo_blue_dark"
+		            android:onClick="btnAddHabilidad_onClick" />
+
+		    </LinearLayout>
+
+		</LinearLayout>
+	    <!-- Cualidades -->
+	    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="5dip"
+            android:text="@string/cualidades"
+            style="@style/sknTitleStat" />
+	    <!-- Beneficios -->
+
+	    <LinearLayout
+	        android:id="@+id/layBeneficios"
+	        style="@style/sknPropiedadCasa"
+	        android:layout_marginTop="5dip" >
+
+		    <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal" >
+	
+		        <TextView
+		            android:layout_width="0dip"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="0.96"
+		            android:text="@string/beneficios"
+		            android:textColor="@android:color/holo_blue_dark" />
+	
+		        <ImageButton
+		            android:id="@+id/btnAddBeneficio"
+		            style="@style/sknAddPropButton"
+		            android:onClick="btnAddBeneficio_onClick" />
+
+		    </LinearLayout>
+
+		</LinearLayout>
+		<!-- Defectos -->
+
+	    <LinearLayout
+	        android:id="@+id/layDefectos"
+	        style="@style/sknPropiedadCasa"
+	        android:layout_marginTop="5dip" >
+
+		    <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal" >
+	
+		        <TextView
+		            android:layout_width="0dip"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="0.96"
+		            android:textColor="@android:color/holo_blue_dark"
+		            android:text="@string/defectos" />
+	
+		        <ImageButton
+		            android:id="@+id/btnAddDefecto"
+		            style="@style/sknAddPropButton"
+		            android:onClick="btnAddDefecto_onClick" />
+
+		    </LinearLayout>
+
+		</LinearLayout>
+	    
+    </LinearLayout>
+    
+</ScrollView>

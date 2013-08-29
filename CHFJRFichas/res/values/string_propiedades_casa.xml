@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DEF -->
+	<string name="str_scastle">C. pequeño</string>
+	<string name="str_castle">Castillo</string>
+	<string name="str_bcastle">C. superior</string>
+	<string name="str_stronghold">Fortaleza</string>
+	<string name="str_tower">Torre</string>
+    <string-array name="str_defarray">
+        <item>@string/str_scastle</item>
+        <item>@string/str_castle</item>
+        <item>@string/str_bcastle</item>
+        <item>@string/str_stronghold</item>
+        <item>@string/str_tower</item>
+    </string-array>
+    <!-- INF -->
+    <string name="str_heir">Heredero</string>
+    <string name="str_daughter">Hija</string>
+    <string name="str_son">Hijo</string>
+    <string-array name="str_infarray">
+        <item>@string/str_heir</item>
+        <item>@string/str_daughter</item>
+        <item>@string/str_son</item>
+    </string-array>
+    <!-- EAR -->
+    <string name="str_features">Características</string>
+    <string name="str_hills">Colinas</string>
+    <string name="str_mountains">Montañas</string>
+    <string name="str_plains">Llanuras</string>
+    <string name="str_swamps">Pantanos</string>
+    <string-array name="str_eararray">
+        <item>@string/str_hills</item>
+        <item>@string/str_mountains</item>
+        <item>@string/str_plains</item>
+        <item>@string/str_swamps</item>
+    </string-array>
+    <string name="str_coast">Costa</string>
+    <string name="str_village">Aldea</string>
+    <string name="str_ltown">P. pequeño</string>
+    <string name="str_btown">P. grande</string>
+    <string name="str_scity">C. pequeña</string>
+    <string name="str_bcity">C. grande</string>
+    <string name="str_meadow">Pradera</string>
+    <string name="str_island">Isla</string>
+    <string name="str_road">Camino</string>
+    <string name="str_ruins">Ruinas</string>
+    <string name="str_brook">Arroyo</string>
+    <string name="str_river">Río</string>
+    <string name="str_pond">Poza</string>
+    <string name="str_lake">Lago</string>
+    <string name="str_lwood">B. disperso</string>
+    <string name="str_bwood">B. denso</string>
+    <string-array name="str_earfeatsarray">
+        <item>@string/str_coast</item>
+        <item>@string/str_village</item>
+        <item>@string/str_ltown</item>
+        <item>@string/str_btown</item>
+        <item>@string/str_scity</item>
+        <item>@string/str_bcity</item>
+        <item>@string/str_meadow</item>
+        <item>@string/str_island</item>
+        <item>@string/str_road</item>
+        <item>@string/str_ruins</item>
+        <item>@string/str_brook</item>
+        <item>@string/str_river</item>
+        <item>@string/str_pond</item>
+        <item>@string/str_lake</item>
+        <item>@string/str_lwood</item>
+        <item>@string/str_bwood</item>
+    </string-array>
+    <!-- POW -->
+    <string name="str_inexperienced">Inexperta</string>
+    <string name="str_competent">Competente</string>
+    <string name="str_veteran">Veterana</string>
+    <string name="str_elite">Elite</string>
+    <string-array name="str_powtrainsarray">
+        <item>@string/str_inexperienced</item>
+        <item>@string/str_competent</item>
+        <item>@string/str_veteran</item>
+        <item>@string/str_elite</item>
+    </string-array>
+    <string name="str_support">Apoyo</string>
+    <string name="str_archers">Arqueros</string>
+    <string name="str_boats">Barcos de guerra</string>
+    <string name="str_scout">Batidores</string>
+    <string name="str_calvary">Caballería</string>
+    <string name="str_criminals">Criminales</string>
+    <string name="str_crusaders">Cruzados</string>
+    <string name="str_specials">Especial</string>
+    <string name="str_pguard">Guardia personal</string>
+    <string name="str_garrison">Guarnición</string>
+    <string name="str_guerrilleros">Guerrilleros</string>
+    <string name="str_incursers">Incursores</string>
+    <string name="str_infantry">Infantería</string>
+    <string name="str_engineers">Ingenieros</string>
+    <string name="str_clevy">Leva Campesina</string>
+    <string name="str_sailors">Marineros</string>
+    <string name="str_mercenaries">Mercenarios</string>
+    <string-array name="str_powunitsarray">
+        <item>@string/str_support</item>
+        <item>@string/str_archers</item>
+        <item>@string/str_boats</item>
+        <item>@string/str_scout</item>
+        <item>@string/str_calvary</item>
+        <item>@string/str_criminals</item>
+        <item>@string/str_crusaders</item>
+        <item>@string/str_specials</item>
+        <item>@string/str_pguard</item>
+        <item>@string/str_garrison</item>
+        <item>@string/str_guerrilleros</item>
+        <item>@string/str_incursers</item>
+        <item>@string/str_infantry</item>
+        <item>@string/str_engineers</item>
+        <item>@string/str_clevy</item>
+        <item>@string/str_sailors</item>
+        <item>@string/str_mercenaries</item>
+    </string-array>
+    <!-- FOR -->
+    <string name="str_crafter">Artesano</string>
+    <string name="str_gwood">Bosque de los dioses</string>
+    <string name="str_guild">Gremio</string>
+    <string name="str_maester">Maestre</string>
+    <string name="str_market">Mercado</string>
+    <string name="str_mine">Mina</string>
+    <string name="str_port">Puerto</string>
+    <string name="str_septon">Septo</string>
+    <string-array name="str_forarray">
+        <item>@string/str_crafter</item>
+        <item>@string/str_gwood</item>
+        <item>@string/str_guild</item>
+        <item>@string/str_maester</item>
+        <item>@string/str_market</item>
+        <item>@string/str_mine</item>
+        <item>@string/str_port</item>
+        <item>@string/str_septon</item>
+    </string-array>
+</resources>

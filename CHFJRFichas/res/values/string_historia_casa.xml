@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_househistory">Historia de la Casa</string>
+    <string name="str_Event">Evento</string>
+    <string name="str_calamity">Calamidad</string>
+    <string name="str_defeat">Derrota</string>
+    <string name="str_disaster">Catástrofe</string>
+    <string name="str_madness">Locura</string>
+    <string name="str_invasion">Invasión/Rebelión</string>
+    <string name="str_escandal">Escándalo</string>
+    <string name="str_decline">Declive</string>
+    <string name="str_betrayal">Traición</string>
+    <string name="str_infrastructure">Infraestructura</string>
+    <string name="str_height">Auge</string>
+    <string name="str_favor">Favor</string>
+    <string name="str_victory">Victoria</string>
+    <string name="str_villain">Villano</string>
+    <string name="str_glory">Gloria</string>
+    <string name="str_conquest">Conquista</string>
+    <string name="str_fortune">Ventura</string>
+</resources>
